@@ -1,0 +1,20 @@
+{
+  "name": "lodash_playground",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc --project ."
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
